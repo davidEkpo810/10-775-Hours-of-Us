@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>A Tale of Two Masters</title>
+
+<style>
+
+body{
+    margin:0;
+    background:#0f172a;
+    color:white;
+    font-family:Georgia, serif;
+    text-align:center;
+}
+
+section{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:40px;
+}
+
+.hero{
+    background:linear-gradient(
+    rgba(0,0,0,.5),
+    rgba(0,0,0,.5)),
+    url('https://images.unsplash.com/photo-1506744038136-46273834b3fb');
+    background-size:cover;
+    background-position:center;
+}
+
+h1{
+    font-size:4rem;
+}
+
+.subtitle{
+    font-size:1.5rem;
+}
+
+.stats{
+    font-size:2rem;
+    line-height:2;
+}
+
+.letter{
+    max-width:800px;
+    text-align:left;
+    font-size:1.2rem;
+    line-height:1.8;
+}
+
+button{
+    padding:15px 30px;
+    border:none;
+    border-radius:30px;
+    cursor:pointer;
+    font-size:1rem;
+}
+
+.hidden{
+    display:none;
+}
+
+.reveal{
+    margin-top:40px;
+    font-size:2rem;
+}
+
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+
+<h1>A Tale of Two Masters</h1>
+
+<p class="subtitle">
+38,763,600 seconds of us...
+</p>
+
+<a href="#stats">
+<button>Begin Our Story</button>
+</a>
+
+</section>
+
+<section id="stats">
+
+<h2>The Numbers</h2>
+
+<div class="stats">
+
+<div>38,763,600 Seconds</div>
+
+<div>646,560 Minutes</div>
+
+<div>10,775 Hours</div>
+
+<div>449 Days</div>
+
+<div>64 Weeks</div>
+
+<div>1.23 Years</div>
+
+<div>2 Birthdays</div>
+
+</div>
+
+<p>
+One number stood out to me:
+<br><br>
+<strong>10,775 Hours</strong>
+</p>
+
+</section>
+
+<section>
+
+<div class="letter">
+
+<p>
+Hey Mama,
+</p>
+
+<p>
+We are 38,763,600 Seconds,
+646,560 Minutes,
+10,775 Hours,
+449 Days,
+64 Weeks,
+1.23 Years and 2 Birthdays deep today.
+</p>
+
+<p>
+When I crunched those numbers, 10 thousand hours caught my attention.
+You see, 10,000 hours is associated with mastery.
+It is believed that to attain a level of mastery in any profession, skill or field,
+10,000 hours of dedication is required.
+</p>
+
+<p>
+And Girl, have we been dedicated?
+I'd argue that we've shown what dedication truly looks like.
+It's safe to say we have mastered the art of being the halves of our whole.
+</p>
+
+<p>
+So today, I want to thank you for being as dedicated to us as you are.
+For not letting me do this life thing alone.
+For being my closest friend even as you are thousands of miles away.
+For sharing this heart with me.
+</p>
+
+<p>
+Thank you for focusing on the things I pack and not the ones I lack.
+</p>
+
+<p>
+As we have clocked this hour of mastery,
+I wish you true perfection in every sphere of life.
+</p>
+
+<p>
+Mastery comes with perfecting a skill,
+and you are perfect for me.
+</p>
+
+<p>
+Happy Birthday Mrs Me.
+</p>
+
+<p>
+I love you to the moon and back ❤️
+</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>One More Thing...</h2>
+
+<button onclick="showMessage()">
+Click Here
+</button>
+
+<div id="message" class="hidden reveal">
+
+Every masterwork takes time.
+<br><br>
+
+Thank you for spending yours with me.
+<br><br>
+
+❤️ Happy Birthday Mama ❤️
+
+</div>
+
+</section>
+
+<script>
+
+function showMessage(){
+document.getElementById("message")
+.classList.remove("hidden");
+}
+
+</script>
+
+</body>
+</html>
